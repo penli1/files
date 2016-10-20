@@ -1,13 +1,7 @@
 #!/bin/bash
 
-#PREFIX=openshift/origin-
-PREFIX=registry.ops.openshift.com/openshift3/
-#PREFIX=brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/openshift3/
-#PREFIX=brew-pulp-docker01.web.qa.ext.phx1.redhat.com:8888/openshift3/
-
-#VERSION=latest
-VERSION=3.3.1
-
+PREFIX=
+VERSION=
 PROJECT=
 SUBDOMAIN=
 MASTER=
