@@ -4,7 +4,7 @@ PREFIX=docker.io/openshift/origin-
 PROJECT=openshift-infra
 # grep subd /openshift.local.config/master/master-config.yaml
 SUBDOMAIN=
-VERSOIN=v3.6.0-alpha.0
+VERSOIN=latets
 
 oc project ${PROJECT}
 
