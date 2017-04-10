@@ -1,5 +1,5 @@
 [oo_first_master]
-host-8-175-189.host.centralci.eng.rdu2.redhat.com  ansible_user=root ansible_ssh_user=root ansible_ssh_private_key_file="~/.ssh/libra.pem" openshift_public_hostname=host-8-175-189.host.centralci.eng.rdu2.redhat.com
+$HSOT  ansible_user=root ansible_ssh_user=root ansible_ssh_private_key_file="" openshift_public_hostname=$HSOT
 
 [oo_first_master:vars]
 openshift_deployment_type=openshift-enterprise
