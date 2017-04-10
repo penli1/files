@@ -3,7 +3,6 @@
 export PREFIX=
 export PROJECT=openshift-infra
 export SUBDOMAIN=
-export MASTER_URL=
 
 
 oc project ${PROJECT}
@@ -19,7 +18,6 @@ oc secrets new metrics-deployer nothing=/dev/null
 oc new-app metrics-deployer-template --as=system:serviceaccount:openshift-infra:metrics-deployer -p \
 IMAGE_PREFIX=${PREFIX},\
 IMAGE_VERSION=,\
-MASTER_URL=${MASTER_URL},\
 HAWKULAR_METRICS_HOSTNAME=hawkular-metrics.${SUBDOMAIN},\
 MODE=deploy,\
 USE_PERSISTENT_STORAGE=true,\
